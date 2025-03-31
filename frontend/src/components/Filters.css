@@ -1,0 +1,32 @@
+.filters-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters-container input,
+  .filters-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .logout-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px; 
+  }
+  
+  .logout-container button {
+    padding: 10px 10px; 
+    font-size: 1em; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .logout-container button:hover {
+    background-color: #e0e0e0; 
+  }
